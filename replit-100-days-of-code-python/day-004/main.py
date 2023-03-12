@@ -13,10 +13,10 @@ food = input('What is your favorite food?: ')
 
 print()
 
-print(f
-    'It was the best of times, it was the worst of times, it was the age of '
-    'wisdom, it was the age of foolishness, when {name} and {friend} explored '
-    '{location} again. They were curious, smiling, and a bit peckish. '
-    'Fortunately, a restaurant was just around the corner. They entered, '
-    'took seat and ordered some {food}.'
+print(
+    f'It was the best of times, it was the worst of times, it was the age of '
+    f'wisdom, it was the age of foolishness, when {name} and {friend} explored '
+    f'{location} again. They were curious, smiling, and a bit peckish. '
+    f'Fortunately, a restaurant was just around the corner. They entered, '
+    f'took seat and ordered some {food}.'
 )
