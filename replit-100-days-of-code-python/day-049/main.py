@@ -1,4 +1,4 @@
-name = 'high.score'
+fname = 'high.score'
 fmode = 'r'
 max_score = 0
 leader = ''
