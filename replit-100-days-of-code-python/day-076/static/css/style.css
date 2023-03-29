@@ -1,0 +1,47 @@
+
+html, body {
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-color: #18122b;
+    font-family: sans-serif;
+  }
+  body {
+    width: 50%;
+    height: 50%;
+    margin-top: 25%;
+    margin-bottom: 25%;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  article > p {
+    font-size: 120%;
+  }
+  img {
+    padding: 1px;
+    margin: 1px;
+    border: 1px white solid;
+    
+  }
+  
+  a { text-decoration: none;
+    color: whitesmoke;
+    display: flex;
+  }
+  
+  
+  h1 {
+    font-family: monospace;
+    font-weight: bold;
+  }
+  
+  section {
+    padding-bottom: 1em;
+  }
+  
+  
