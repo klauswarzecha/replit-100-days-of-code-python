@@ -1,0 +1,27 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    background-color: #150128;
+    color: ghostwhite;
+    font-family: sans-serif;
+  }
+  
+  form {
+    border: 1px ghostwhite solid;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+  }
+  
+  field {
+    display: block;
+    padding 10px;
+    margin: 10px;
+  }
+  
+  button {
+    font-size: larger;
+  }
