@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(21, 21, 64);
+    color: whitesmoke;
+}
+
+.one {
+    background-color: darkslateblue;
+    color: whitesmoke;
+}
+
+.two {
+    background-color: darkorchid;
+    color: whitesmoke;    
+}
+
+
+article {
+    margin: 2%;
+}
+
+main {
+    width: 100%;
+}
+
+blockquote {
+    width: 80%;
+    margin-left: auto;
+     margin-right: auto; 
+    font-size: 200%;
+    font-variant: small-caps;
+}
