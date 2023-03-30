@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<h1>Are you a robot?</h1>
+<form method="post">
+    <fieldset>
+        <legend>What is our skeleton made of?</legend>
+        <input type="text" name="skeleton" id="skeleton">
+    </fieldset>
+    
+    <fieldset>
+        <legend>
+        </legend>
+        <label for="temperature">What is your temperature in °C?</label>
+        <input type="range" min="0" max="100" step="10">
+    </fieldset>
+    
+    <fieldset>
+        <legend>Do you dream of electric sheep?</legend>
+        <input type="radio" name="dream" id="dream-yes" value="yes" checked>
+        <label for="dream">Yes</label>
+        <input type="radio" name="dream" id="dream-no" value="no">
+        <label for="dream">No</label> 
+    </fieldset>
+    
+    <fieldset>
+        <legend>Where were you made?</legend>
+        <select name="made" id="made">
+            <option value="weyland">Weyland-Yutani Corporation</option>
+            <option value="umbrella">Umbrella Corporation</option>
+            <option value="tyrell">Tyrell Corporation</option>
+            <option value="ocp">Omni Consumer Products</option>
+            <option value="ecorp">E Corp</option>
+            <option value="chelsea">Chelsea</option>
+        </select>
+    </fieldset>
+    <input type="submit" value="Submit">
+</form>
+
+{% endblock content %}

@@ -1,0 +1,10 @@
+body {
+    background-color: darkslategrey;
+    color: whitesmoke;
+    font-size: larger;
+    font-family: sans-serif;
+}
+
+fieldset {
+    margin-bottom: 1em;
+}

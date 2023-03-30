@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    {% if (dream == 'yes' and (made|lower in ["weyland", "umbrella", "tyrell", "ocp", "ecorp"])) %}
+        <h1>You are an artificial being made by {{ made|upper }}!</h1>
+    {% elif (dream == 'no' and (made|lower in ["chelsea"])) %}
+        <h1>You are a meatbag and just for the pun you are "Made in {{ made|title }}"!</h1>
+    {% else %}
+        <h1>I haven't got the foggiest what you are!</h1>
+    {% endif %}
+{% endblock content %}
+    
