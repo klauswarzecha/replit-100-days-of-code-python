@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <header>
+        <h1>{{ blogpost.title }}</h1>
+        <h2>{{ blogpost.subtitle }}</h2>
+        <h3>{{ blogpost.date }}</h3>
+    </header>
+    <article>
+        {% for line in blogpost.text %}
+        <p>{{ line }}</p>
+        {% endfor %}
+    </article>
+{% endblock content %}
+
